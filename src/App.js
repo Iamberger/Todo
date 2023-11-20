@@ -21,8 +21,8 @@ function Todo() {
       <h1>Todo List</h1>
       <form>
         <input type='text' value={input} onChange={Change} />
-        <button type='' onClick={Submit}>
-          Add Tod
+        <button type='button' onClick={Submit}>
+          Add Todo
         </button>
       </form>
       <ul>
