@@ -47,9 +47,7 @@
     transform: rotate(360deg);
   }
 }
-
 body {
-  font-family: 'Arial', sans-serif;
   background-color: #fff9f9;
   margin: 0;
   padding: 0;
@@ -63,7 +61,6 @@ div {
   background-color: #fff;
   border-radius: 8px;
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
-  padding: 20px;
   width: 300px;
 }
 
@@ -82,30 +79,18 @@ input {
   padding: 10px;
   margin-bottom: 10px;
   border: 1px solid #000000;
-  border-radius: 400px;
 }
 
 button {
   background-color: #4caf50;
   color: #fff;
-  padding: 8px;
-  border: 1px solid black;
-  border-radius: 400px;
-  cursor: pointer;
-}
+  border: 1px solid black;}
 
-ul {
-  list-style-type: none;
-  padding: 0;
-}
+
 
 li {
   border-bottom: 1px solid #ddd;
   padding: 10px;
-}
-
-li:last-child {
-  border-bottom: none;
 }
 
 
